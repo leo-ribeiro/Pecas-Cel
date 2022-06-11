@@ -1,4 +1,4 @@
-# Pecas-Cel
+# Peças-Cel
 
 ## Loja Virtual de vendas de peças (usadas) para Celulares.
 
