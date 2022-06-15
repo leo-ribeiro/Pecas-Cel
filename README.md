@@ -2,7 +2,7 @@
 
 ## Loja Virtual de vendas de peças (usadas) para Celulares.
 
-* Criado com HTM | CSS | Javascript | Bootstrap
+* Criado com HTML | CSS | Javascript | Bootstrap
 
 
 ** Em construção **
