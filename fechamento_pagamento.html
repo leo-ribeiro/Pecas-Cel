@@ -88,7 +88,7 @@
                     <h3 class="mb-4">
                         Selecione a forma de pagamento e clique em
                         <b>Continuar</b> para prosseguir para
-                        <b>sconcluir o pedido</b>
+                        <b>Concluir o pedido</b>
                         .
                     </h3>
                     <div class="d-flex justify-content-between flex-wrap border rounded-top pt-4 px-3">
@@ -103,7 +103,7 @@
                             <label class="btn btn-outline-primary p-4 h-100 w-100" for="pag1">
                                 <h3>
                                     <b class="text-dark">Cartão de Crédito</b>
-                                    <br>
+                                </h3>
                                     <hr>
                                     <form action="">
                                         <div class="form-floating mb-3">
@@ -148,7 +148,14 @@
                                         </div>
 
                                         <div class="form-floating">
-                                            <select id=""></select>
+                                            <select id="selParcelas" class="form-select">
+                                                <option value="1" selected>À vista</option>
+                                                <option value="2" selected>2 x sem juros</option>
+                                                <option value="3" selected>3 x sem juros</option>
+                                                <option value="4" selected>4 x sem juros</option>
+                                                <option value="5" selected>5 x sem juros</option>
+                                                <option value="6" selected>6 x sem juros</option>
+                                            </select>
                                             <label for="selParcelas" class="text-black-50">Parcelamento</label>
                                         </div>
                                     </form>
@@ -169,16 +176,6 @@
                                 </h3>
                                 <hr>
                                 <form action="">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            id="txtNome"
-                                            class="form-control"
-                                            placeholder=" "
-                                            autofocus
-                                        >
-                                        <label for="txtNome" class="text-black-50">Nome Impresso no Cartão</label>
-                                    </div>
                                 </form>
                             </label>
                         </div>
