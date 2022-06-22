@@ -35,3 +35,8 @@ label .text-dark {
     transition: color 0.2s ease;
     color: white !important;
 }
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
