@@ -35,7 +35,7 @@
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="/css/estilos.css">
-        <title>Peças Cel :: Área do Cliente :: Dados Pessoais</title>
+        <title>Peças Cel :: Área do Cliente :: Contatos</title>
     </head>
     <body>
         <div class="d-flex flex-column wrapper">
@@ -90,10 +90,10 @@
                     <div class="row gx-3">
                         <div class="col-4">
                             <div class="list-group">
-                                <a href="/cliente_dados.html" class="list-group-item list-group-item-action bg-primary text-light">
+                                <a href="/cliente_dados.html" class="list-group-item list-group-item-action">
                                     <i class="bi-person fs-6"></i> Dados Pessoais
                                 </a>
-                                <a href="/cliente_contatos.html" class="list-group-item list-group-item-action">
+                                <a href="/cliente_contatos.html" class="list-group-item list-group-item-action bg-primary text-light">
                                     <i class="bi-mailbox fs-6"></i> Contatos
                                 </a>
                                 <a href="/cliente_endereco.html" class="list-group-item list-group-item-action">
@@ -115,17 +115,13 @@
                         </div>
                         <div class="col-8">
                             <form action="">
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus/>
-                                    <label for="txtNome">Nome</label>
+                                <div class="form-floating mb-3 col-md-8">
+                                    <input class="form-control" type="email" id="txtEmail" placeholder=" " autofocus/>
+                                    <label for="txtEmail">E-mail</label>
                                 </div>
-                                <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                    <input class="form-control" type="text" id="txtCPF" placeholder=" " />
-                                    <label for="txtCPF">CPF</label>
-                                </div>
-                                <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                    <input class="form-control" type="date" id="txtDataNascimento" placeholder=" " />
-                                    <label for="txtDataNascimento">Data de Nascimento</label>
+                                <div class="form-floating mb-3 col-md-6">
+                                    <input class="form-control" type="text" id="txtTelefone" placeholder=" " />
+                                    <label for="txtTelefone">Telefone</label>
                                 </div>
                             </form>
                         </div>
