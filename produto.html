@@ -82,51 +82,70 @@
                     </div>
                 </div>
             </nav>
-
             <main class="flex-fill">
                 <div class="container">
                     <div class="row 3">
                         <div class="col-12 col-sm-6">
-                            <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" class="img-thumbnail">
+                            <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" class="img-thumbnail" id="imgProduto">
                             <br class="clearfix">
                             <div class="row my-3 gx-3">
                                 <div class="col-3">
-                                    <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" alt="" class="img-thumbnail" onclick="trocarImagem(this)">
+                                    <img
+                                        src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg"
+                                        alt=""
+                                        class="img-thumbnail"
+                                        onclick="trocarImagem(this)"
+                                    >
                                 </div>
                                 <div class="col-3">
-                                    <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" alt="" class="img-thumbnail" onclick="trocarImagem(this)">
+                                    <img
+                                        src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 2.jpg"
+                                        alt=""
+                                        class="img-thumbnail"
+                                        onclick="trocarImagem(this)"
+                                    >
                                 </div>
                                 <div class="col-3">
-                                    <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" alt="" class="img-thumbnail" onclick="trocarImagem(this)">
+                                    <img
+                                        src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 3.jpg"
+                                        alt=""
+                                        class="img-thumbnail"
+                                        onclick="trocarImagem(this)"
+                                    >
                                 </div>
                                 <div class="col-3">
-                                    <img src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 1.jpg" alt="" class="img-thumbnail" onclick="trocarImagem(this)">
+                                    <img
+                                        src="/img/produtos/SAMSUNG A51/FRONTAL/Photos/FRONTAL 4.jpg"
+                                        alt=""
+                                        class="img-thumbnail"
+                                        onclick="trocarImagem(this)"
+                                    >
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6">
-                                <h1>Frontal Samsung A51</h1>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui debitis commodi unde ratione voluptatum esse quas error rerum, beatae, voluptas magnam earum aliquid provident similique voluptatem, deserunt alias id et.
-                                </p>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui debitis commodi unde ratione voluptatum esse quas error rerum, beatae, voluptas magnam earum aliquid provident similique voluptatem, deserunt alias id et.
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <h1>Frontal Samsung A51</h1>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui debitis commodi unde ratione voluptatum esse quas error rerum, beatae, voluptas magnam earum aliquid provident similique voluptatem, deserunt alias id et.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui debitis commodi unde ratione voluptatum esse quas error rerum, beatae, voluptas magnam earum aliquid provident similique voluptatem, deserunt alias id et.
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui debitis commodi unde ratione voluptatum esse quas error rerum
-                                </p>
-                                <p>
-                                    <button class="btn btn-lg btn-primary">
-                                        <i class="bi-cart"></i> Adicionar ao carrinho
-                                    </button>
-                                    <button class="btn btn-lg btn-primary">
-                                        <i class="bi-heart"></i> Adicionar aos Favoritos
-                                    </button>
-                                </p>
-                            </div>
+                            </p>
+                            <p>
+                                <button class="btn btn-lg btn-primary">
+                                    <i class="bi-cart"></i>
+                                    Adicionar ao carrinho
+                                </button>
+                                <button class="btn btn-lg btn-outline-primary">
+                                    <i class="bi-heart"></i>
+                                    Adicionar aos Favoritos
+                                </button>
+                            </p>
                         </div>
                     </div>
                 </div>
-
             </main>
-
             <footer class="border-top text-muted bg-light">
                 <div class="container">
                     <div class="row py-3">
@@ -173,5 +192,11 @@
             </footer>
         </div>
         <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            function trocarImagem(el) {
+                var imgProduto = document.getElementById("imgProduto");
+                imgProduto.src = el.src;
+            }
+        </script>
     </body>
 </html>
