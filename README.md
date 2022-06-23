@@ -1,6 +1,6 @@
 # Peças-Cel
 
-## Loja Virtual de vendas de peças (usadas) para Celulares.
+## Loja virtual de vendas de peças (usadas) para Celulares e Tablets.
 
 * Projeto fictício de um site (e-commerce) de vendas de peças de Celulares e Tablets usadas, mas que estejam funcionando perfeitamente.
 
